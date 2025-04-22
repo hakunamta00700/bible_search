@@ -1,0 +1,9 @@
+# requirements.txt
+# 프로젝트 의존성 목록
+
+click>=8.0
+neo4j>=5.0
+faiss-cpu>=1.7  # CPU 버전, GPU 사용 시 faiss-gpu
+sentence-transformers>=2.2
+tqdm>=4.6 # 진행률 표시줄 (선택 사항)
+numpy>=1.21 # FAISS 및 SentenceTransformers 의존성
